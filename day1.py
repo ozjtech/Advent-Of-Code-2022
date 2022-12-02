@@ -1,4 +1,4 @@
-var = open(0,'r').read().split("\n\n")
+var = open("index.txt",'r').read().split("\n\n")
 total_kcal = []
 
 for line in var:
